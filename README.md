@@ -12,9 +12,9 @@
 ![pharm](pharm_cast.png)
 
 ## 🎯 The Problem
-One of the most common challenges in the pharmaceutical supply chain is **inventory distortion** — the imbalance between overstocking and understocking. 
+One of the most common challenges in the pharmaceutical supply chain is inventory distortion — the imbalance between overstocking and understocking. 
 
-**For a typical retail business, a stockout means a lost sale. In the pharmaceutical industry, the stakes are infinitely higher — it can mean a delay in life-saving treatment. This immense responsibility is why effective pharmacy inventory forecasting is not just a good business practice, but a critical component of patient safety.**
+For a typical retail business, a stockout means a lost sale. In the pharmaceutical industry, the stakes are infinitely higher — it can mean a delay in life-saving treatment. This immense responsibility is why effective pharmacy inventory forecasting is not just a good business practice, but a critical component of patient safety.
 
 
 ---
@@ -167,16 +167,6 @@ Run all cells from top to bottom. Each chapter builds on the previous one.
 - Large unexplained spikes still affect accuracy
 - Retraining needed monthly
 
----
-
-## 🚀 Roadmap
-
-- [ ] Dedicated N02BE forecast model — isolating the dominant category's 115% seasonal signal
-- [ ] SKU-level forecasting across all 8 drug categories
-- [ ] External signals: flu season index, weather, hospital admission rates
-- [ ] Event calendar feature: promotions, public holidays, stockout flags
-- [ ] Automated monthly retraining pipeline with drift detection
-- [ ] Interactive dashboard for non-technical pharmacy staff
 
 ---
 
