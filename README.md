@@ -55,6 +55,26 @@ Inventory Insights
 -  Linear Regression performed nearly as well as Random Forest
 ---
 
+
+## 🛠️ Getting Started
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/anaboset/FUTURE_ML_01
+cd FUTURE_ML_01
+
+pip install -r requirements.txt
+```
+**Place the [dataset](#-the-dataset) at PharmaCast/data/pharma-sales-data/salesdaily.csv**
+```
+jupyter notebook pharma_sales_forecast.ipynb
+```
+
+Run all cells from top to bottom. Each chapter builds on the previous one.
+
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -92,7 +112,7 @@ The model was trained on a pharmacy sales dataset obtained from Kaggle, containi
 
 The dataset is not included in this repository. To set it up locally:
 
-**Option 1 — Download manually (recommended)**
+**Option 1 — Download manually**
 
 1. Go to [https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data)
 2. Click **Download**
@@ -126,37 +146,6 @@ df = kagglehub.load_dataset(
 
 
 ---
-
-
-## 🛠️ Getting Started
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/anaboset/FUTURE_ML_01
-cd FUTURE_ML_01
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Add the dataset**
-
-Download `salesdaily.csv` from Kaggle and place it at `data/pharma-sales-data/salesdaily.csv`.  
-See [Getting the Data](#getting-the-data) above for full instructions.
-
-**4. Create the outputs folder**
-```bash
-mkdir outputs
-```
-
-**5. Run the notebook**
-```bash
-jupyter notebook pharma_sales_forecast.ipynb
-```
-
-Run all cells from top to bottom. Each chapter builds on the previous one.
 
 ---
 
