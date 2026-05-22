@@ -60,8 +60,8 @@ Inventory Insights
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/anaboset/FUTURE_ML_01
-cd FUTURE_ML_01
+git clone https://github.com/anaboset/PharmaCast
+cd PharmaCast
 
 pip install -r requirements.txt
 ```
@@ -165,4 +165,4 @@ If the forecast helps a single pharmacy avoid a stockout on a critical medicatio
 
 ---
 
-*Built as part of a ML internship portfolio project.
+*Built by AI/ML trainee & pharmacy student*
